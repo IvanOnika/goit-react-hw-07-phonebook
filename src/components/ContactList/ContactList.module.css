@@ -1,0 +1,36 @@
+.list {
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  width: 460px;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.listName {
+  margin-right: 15px;
+
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.listNumber {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.listButton {
+  height: 20px;
+  padding: 1px 10px;
+  margin-left: auto;
+
+  outline: none;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff8f8;
+}
