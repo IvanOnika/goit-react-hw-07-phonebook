@@ -54,7 +54,7 @@ export const phoneBookSlice = createSlice({
       state.contacts.error = null;
 
       const index = state.contacts.items.findIndex(
-        contact => contact.id === action.payload
+        contact => contact.id === action.payload.id
       );
       state.contacts.items.splice(index, 1);
     },
